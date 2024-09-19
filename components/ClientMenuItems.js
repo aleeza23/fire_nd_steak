@@ -20,6 +20,12 @@ const ClientMenuItems = ({ menuItem }) => {
         } else {
             setSelectedItems([...selectedItems, { ...item, quantity }]);
         }
+        
+        // Scroll to the checkout section
+        const checkoutSection = document.getElementById('check-order');
+        if (checkoutSection) {
+            checkoutSection.scrollIntoView({ behavior: 'smooth' });
+        }
     };
 
     const handleIncreaseQuantity = (id) => {
@@ -77,7 +83,7 @@ const ClientMenuItems = ({ menuItem }) => {
                     </div>
                 ))}
             </div>
-            <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row gap-6">
+            <div id='check-order' className="container mx-auto px-4 py-10 flex flex-col md:flex-row gap-6">
                 <CheckoutForm selectedItems={selectedItems} subtotal={subtotal} />
                 <OrderSummary items={selectedItems} calculateSubtotal={calculateSubtotal} />
             </div>
