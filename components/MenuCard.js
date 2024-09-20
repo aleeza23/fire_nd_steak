@@ -48,6 +48,7 @@ const MenuCard = ({ menuItem, selectedItems, setSelectedItems }) => {
                             <Image
                                 src={subItem.imgSrc}
                                 alt={subItem.title}
+                                 loading='lazy'
                                 fill
                                 sizes="(max-width: 640px) 100vw, 
                                         (max-width: 768px) 50vw, 
