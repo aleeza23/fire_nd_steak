@@ -1,6 +1,25 @@
 import card01 from '@/public/card1.webp';
 import card02 from '@/public/card2.webp';
 import card03 from '@/public/card3.webp';
+import steak01 from '@/public/steak-01.webp'
+import steak02 from '@/public/steak-02.webp'
+import steak03 from '@/public/steak-03.webp'
+import steak04 from '@/public/steak-04.webp'
+import steak05 from '@/public/steak-05.webp'
+import steak06 from '@/public/steak-06.webp'
+import steak07 from '@/public/steak-07.webp'
+import steak08 from '@/public/steak-08.webp'
+import steak09 from '@/public/card1.webp'
+import steak10 from '@/public/steak-10.webp'
+import steak11 from '@/public/steak-11.webp'
+import steak12 from '@/public/steak-12.webp'
+import steak13 from '@/public/steak-13.webp'
+import steak14 from '@/public/steak-14.webp'
+import steak15 from '@/public/steak-15.webp'
+import steak16 from '@/public/steak-16.webp'
+
+
+
 
 const MenuData = [
     {
@@ -12,97 +31,97 @@ const MenuData = [
         subMenuItems: [
             {
                 id: 'sub-menu-item-1-1',
-                imgSrc: card01,
+                imgSrc: steak01,
                 title: 'Decked Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-2',
-                imgSrc: card01,
+                imgSrc: steak02,
                 title: 'Peppercorn Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-3',
-                imgSrc: card01,
+                imgSrc: steak03,
                 title: 'French Onion Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-4',
-                imgSrc: card01,
+                imgSrc: steak04,
                 title: 'Mushroom Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-5',
-                imgSrc: card01,
+                imgSrc: steak05,
                 title: 'Herb Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-6',
-                imgSrc: card01,
+                imgSrc: steak06,
                 title: 'Hawaiian Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-7',
-                imgSrc: card01,
+                imgSrc: steak07,
                 title: 'Chicago Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-8',
-                imgSrc: card01,
+                imgSrc: steak08,
                 title: 'New York Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-9',
-                imgSrc: card01,
+                imgSrc: steak09,
                 title: 'Fire Special Steak',
                 price: '1790',
             },
             {
                 id: 'sub-menu-item-1-10',
-                imgSrc: card01,
+                imgSrc: steak10,
                 title: 'BBQ Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-11',
-                imgSrc: card01,
+                imgSrc: steak11,
                 title: 'Himalayan Special',
                 price: '1790',
             },
             {
                 id: 'sub-menu-item-1-12',
-                imgSrc: card01,
+                imgSrc: steak12,
                 title: 'Mexican Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-13',
-                imgSrc: card01,
+                imgSrc: steak13,
                 title: 'Stuffed Steak',
                 price: '1790',
             },
             {
                 id: 'sub-menu-item-1-14',
-                imgSrc: card01,
+                imgSrc: steak14,
                 title: 'Milano Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-15',
-                imgSrc: card01,
+                imgSrc: steak15,
                 title: 'Twin Steak',
                 price: '1790',
             },
             {
                 id: 'sub-menu-item-1-16',
-                imgSrc: card01,
+                imgSrc: steak16,
                 title: 'Tarragon Steak',
                 price: '1690',
             },
