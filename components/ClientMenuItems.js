@@ -27,6 +27,7 @@ const ClientMenuItems = () => {
             src={bgImg}
             alt="Background Image"
             fill
+  priority
             sizes="100vw"
             className="w-full h-full object-cover"
           />
