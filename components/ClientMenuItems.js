@@ -33,7 +33,7 @@ const ClientMenuItems = () => {
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
             <h1 className="text-4xl font-bold text-white text-center font-pirata-one tracking-widest">Discover Our Delicious Menu</h1>
             <p className="text-lg mt-3 text-center text-white max-w-2xl">
-              Savor the taste of flame-grilled perfection with every delicious bite. Our expertly crafted dishes are designed to tantalize your taste buds and create unforgettable dining experiences that you won't want to miss.
+              Savor the taste of flame grilled perfection with every delicious bite. Our expertly crafted dishes are designed to tantalize your taste buds and create unforgettable dining experiences that you would not want to miss.
             </p>
 
           </div>
