@@ -71,7 +71,7 @@ const ClientMenuItems = () => {
             return (
               <div key={elm.id} ref={el => categoryRefs.current[elm.id] = el}>
                 <h1 
-                  className="text-2xl font-bold text-white font-pirata-one tracking-widest my-2 cursor-pointer" 
+                  className="text-2xl font-bold hover:text-yellow-300 text-white font-pirata-one tracking-widest my-2 cursor-pointer" 
                   onClick={() => toggleCategory(elm.id)}
                 >
                   {elm.title}
