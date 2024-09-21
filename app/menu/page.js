@@ -3,7 +3,6 @@ import Container from '@/components/Container';
 
 // Dynamically import components
 const ClientMenuItems = dynamic(() => import('@/components/ClientMenuItems'));
-const MenuDetails = dynamic(() => import('@/components/MenuDetails'));
 const Address = dynamic(() => import('@/components/Address'));
 const ContactUs = dynamic(() => import('@/components/ContactUs'));
 const Footer = dynamic(() => import('@/components/Footer'));
@@ -11,8 +10,7 @@ const Footer = dynamic(() => import('@/components/Footer'));
 const MenuPage = () => {
   return (
     <Container>
-      <ClientMenuItems />
-      <MenuDetails />
+      <ClientMenuItems />    
       <ContactUs />
       <Address />
       <Footer />
