@@ -1,11 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 
-const OrderSummary = ({ items, calculateSubtotal }) => {
-
-
+const OrderSummary = ({ items, calculateSubtotal, removeFromCart }) => {
     return (
-        <div className="w-full md:w-1/2 p-6 rounded-lg bg-[#0f0f0f]">
+        <div className="w-full mb-6 p-6 rounded-lg bg-[#0f0f0f]">
             <h2 className="text-2xl font-bold mb-4 font-pirata-one tracking-widest text-white">Order Summary</h2>
             {items.length === 0 ? (
                 <p className="text-center text-white">No items selected.</p>
@@ -32,6 +30,12 @@ const OrderSummary = ({ items, calculateSubtotal }) => {
                                         <span>Quantity: {item.quantity}</span>
                                         <span>Rs. {item.price}</span>
                                     </div>
+                                    <button
+                                        className="mt-2 text-red-500 hover:text-red-300"
+                                        onClick={() => removeFromCart(item.id)}
+                                    >
+                                        Remove
+                                    </button>
                                 </div>
                             </div>
                             {index < items.length - 1 && <hr className="border-gray-600" />}
