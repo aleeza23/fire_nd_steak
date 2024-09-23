@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Fire n Steak House",
-  description: "The best steak house in Islamabad, every dish is crafted with care, and every flavor tells a story.",
+  description: "The best steak house in Islamabad, every dish is crafted with care, and every flavor tells a story",
   icons: {
     icon: ['/favicon.ico?v=4'],
     apple: ['/apple-touch-icon.png?=v4'],
