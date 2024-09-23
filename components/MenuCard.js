@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Loader from './Loader';
 
-const MenuCard = ({ menuItem, selectedItems, setSelectedItems,  }) => {
+const MenuCard = ({ menuItem, selectedItems, setSelectedItems,setIsCartOpen  }) => {
     const [itemQuantities, setItemQuantities] = useState({});
 
     const handleAddToCart = (item) => {
@@ -18,12 +18,8 @@ const MenuCard = ({ menuItem, selectedItems, setSelectedItems,  }) => {
         }
 
         setSelectedItems(updatedItems); // Update selected items in parent
-
-        // Scroll to the checkout section
-        const checkoutSection = document.getElementById('check-order');
-        if (checkoutSection) {
-            checkoutSection.scrollIntoView({ behavior: 'smooth' });
-        }
+        setIsCartOpen(true)
+       
     };
 
     const handleIncreaseQuantity = (id) => {
@@ -41,7 +37,7 @@ const MenuCard = ({ menuItem, selectedItems, setSelectedItems,  }) => {
     };
 
     return (
-        <div className="container h= mx-auto px-4 py-10 text-white">
+        <div className="container  mx-auto px-4 py-10 text-white">
           
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
                     {menuItem.subMenuItems.map((subItem) => (
