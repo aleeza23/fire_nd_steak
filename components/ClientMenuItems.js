@@ -11,6 +11,7 @@ import Loader from './Loader';
 const DynamicMenuCard = dynamic(() => import('./MenuCard'), { suspense: true });
 
 const MenuCard = memo((props) => <DynamicMenuCard {...props} />);
+MenuCard.displayName = 'MenuCard';
 
 const ClientMenuItems = () => {
   const [selectedItems, setSelectedItems] = useState([]);
