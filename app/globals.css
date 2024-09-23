@@ -9,6 +9,9 @@
 body{
   background-color: black;
 }
+.disable-scroll {
+  overflow: hidden;
+}
 
 ::-webkit-scrollbar {
   width: 9px; 
