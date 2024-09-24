@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { Blurhash } from 'react-blurhash';
+
 import Loader from './Loader';
 
 const MenuCard = ({ menuItem, selectedItems, setSelectedItems, setIsCartOpen }) => {
     const [itemQuantities, setItemQuantities] = useState({});
-    const [imageLoading, setImageLoading] = useState({});
+   
 
     const handleAddToCart = (item) => {
         const quantity = itemQuantities[item.id] || 1; // Get the quantity or default to 1
@@ -43,26 +43,16 @@ const MenuCard = ({ menuItem, selectedItems, setSelectedItems, setIsCartOpen }) 
                 {menuItem.subMenuItems.map((subItem) => (
                     <div key={subItem.id} className="flex flex-col h-full">
                         <div className="relative w-full h-[10rem] overflow-hidden rounded-lg mb-4">
-                            {imageLoading[subItem.id] && (
-                                <Blurhash
-                                    hash={subItem.blurhash}
-                                    width="100%"
-                                    height="100%"
-                                    resolutionX={32}
-                                    resolutionY={32}
-                                    punch={1}
-                                    className="absolute inset-0 z-10"
-                                />
-                            )}
+                          
                             <Image
                                 src={subItem.imgSrc}
                                 alt={subItem.title}
                                 loading="lazy"
                                 fill
+                                placeholder='blur'
                                 sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                                className={`w-full h-[20px] object-cover ${imageLoading[subItem.id] ? 'opacity-0' : 'opacity-100'}`}
-                                onLoadingComplete={() => setImageLoading((prev) => ({ ...prev, [subItem.id]: false }))}
-                                onError={() => setImageLoading((prev) => ({ ...prev, [subItem.id]: false }))}
+                                className={`w-full h-[20px] object-cover`}
+                                
                             />
                         </div>
                         <div className="flex-grow">
