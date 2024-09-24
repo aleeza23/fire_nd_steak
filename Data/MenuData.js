@@ -105,96 +105,127 @@ const MenuData = [
             {
                 id: 'sub-menu-item-1-1',
                 imgSrc: steak01,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
                 title: 'Decked Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-2',
                 imgSrc: steak02,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Peppercorn Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-3',
                 imgSrc: steak03,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'French Onion Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-4',
                 imgSrc: steak04,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Mushroom Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-5',
                 imgSrc: steak05,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Herb Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-6',
                 imgSrc: steak06,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Hawaiian Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-7',
                 imgSrc: steak07,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Chicago Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-8',
                 imgSrc: steak08,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'New York Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-9',
                 imgSrc: steak09,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Fire Special Steak',
                 price: '1790',
             },
             {
                 id: 'sub-menu-item-1-10',
                 imgSrc: steak10,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'BBQ Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-11',
                 imgSrc: steak11,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Himalayan Special',
                 price: '1790',
             },
             {
                 id: 'sub-menu-item-1-12',
                 imgSrc: steak12,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Mexican Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-13',
                 imgSrc: steak13,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Stuffed Steak',
                 price: '1790',
             },
             {
                 id: 'sub-menu-item-1-14',
                 imgSrc: steak14,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Milano Steak',
                 price: '1690',
             },
             {
                 id: 'sub-menu-item-1-15',
                 imgSrc: steak15,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Twin Steak',
                 price: '1790',
             },
             {
                 id: 'sub-menu-item-1-16',
                 imgSrc: steak16,
+                blurhash: 'L78:bR-V0hEMIpe.s.WX0gI:}r-U',
+
                 title: 'Tarragon Steak',
                 price: '1690',
             },
