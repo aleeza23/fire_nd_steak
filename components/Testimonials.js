@@ -5,7 +5,7 @@ import { SiCodechef } from "react-icons/si";
 
 import testimonialBg from '@/public/testimonial-bg.webp';
 import reviewAvatar from '@/public/client02.webp';
-import Ceo from './Ceo';
+
 import GoogleReviews from './GoogleReviews';
 
 const features = [
@@ -80,7 +80,7 @@ const Testimonials = () => {
         </ul>
       </div>
 
-     <Ceo />
+ 
      <GoogleReviews />
       
     </>
