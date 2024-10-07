@@ -10,11 +10,19 @@ This website provides users with a modern interface to browse and order their fa
 - 📱 Send order details directly via WhatsApp
 
 
-![Home Page](path/to/home-page-image.png)
+![Home Page](demo-images/1st.png)
 
-![Menu](path/to/menu-image.png)
+![Menu](demo-images/2nd.png)
 
-![Order Summary](path/to/order-summary-image.png)
+![Order Summary](demo-images/3rd.PNG)
+
+![Order Summary](demo-images/3rd.PNG)
+
+![Order Summary](demo-images/3rd.PNG)
+
+![Order Summary](demo-images/3rd.PNG)
+
+![Order Summary](demo-images/3rd.PNG)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
