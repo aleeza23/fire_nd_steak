@@ -1,6 +1,31 @@
+# Fire and Steak Website
+
+This website provides users with a modern interface to browse and order their favorite steaks.
+
+## Features
+
+- 📱 Modern and responsive design
+- 🛒 Add to cart functionality
+- 📦 Detailed Order summary
+- 📱 Send order details directly via WhatsApp
+
+
+![Home Page](path/to/home-page-image.png)
+
+![Menu](path/to/menu-image.png)
+
+![Order Summary](path/to/order-summary-image.png)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+
+To explore the project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/fire-and-steak-website.git
 
 First, run the development server:
 
