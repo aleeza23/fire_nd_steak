@@ -16,13 +16,11 @@ This website provides users with a modern interface to browse and order their fa
 
 ![Order Summary](demo-images/3rd.PNG)
 
-![Order Summary](demo-images/3rd.PNG)
+![Order Summary](demo-images/4th.PNG)
 
-![Order Summary](demo-images/3rd.PNG)
+![Order Summary](demo-images/5th.png)
 
-![Order Summary](demo-images/3rd.PNG)
-
-![Order Summary](demo-images/3rd.PNG)
+![Order Summary](demo-images/7th.png)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
